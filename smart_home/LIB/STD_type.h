@@ -18,8 +18,8 @@ typedef signed short   sint16 ;
 typedef signed int     sint32 ;
 typedef signed long    sint64 ;
 
-typedef float                  f32 ;
-typedef double                 f64 ;
+typedef float          f32    ;
+typedef double         f64    ;
 
 typedef enum
 {
