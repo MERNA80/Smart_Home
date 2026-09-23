@@ -53,7 +53,7 @@ void LCD_Lab_EnterPassword_mas(void)
 		    LCD_Send_Data('d');
 		    _delay_ms(800);
 
-		    LCD_Send_Cmd(0x0C);
+		
 		    LCD_Set_Cursor(1 , 5);
 	//	LCD_Send_Str("_ _ _ _");
 	        LCD_Send_Data('_');
@@ -88,7 +88,6 @@ void LCD_Lab_PasswordStar_mas(u8 A_u8Index)
 void LCD_Lab_Wrong_mas(void)
 {
 	LCD_CLearDisplay();
-	LCD_Send_Cmd(0x0C);
 	LCD_Set_Cursor(0 , 2);
 	LCD_Send_Str("Wrong Pass!!");
 }
@@ -97,7 +96,6 @@ void LCD_Lab_Correct_mas(void)
 {
 
 	LCD_CLearDisplay();
-	LCD_Send_Cmd(0x0C);
 	LCD_Set_Cursor(0 , 2);
 	LCD_Send_Str("Correct Pass");
 }
@@ -105,7 +103,6 @@ void LCD_Lab_Correct_mas(void)
 void LCD_Lab_Invalid_mas(void)
 {
 	LCD_CLearDisplay();
-	LCD_Send_Cmd(0x0C);
 	LCD_Set_Cursor(0 , 0);
 	LCD_Send_Str("Invalid Password!");
 }
@@ -113,7 +110,6 @@ void LCD_Lab_Invalid_mas(void)
 void LCD_Lab_Home_Statuse_mas(void)
 {
 	LCD_CLearDisplay();
-	LCD_Send_Cmd(0x0C);
 	LCD_Set_Cursor(0 , 3);
 	LCD_Send_Str("Home Status");
 	_delay_ms(900);
