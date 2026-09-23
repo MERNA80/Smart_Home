@@ -1,21 +1,53 @@
 /*
  * main.c
  *
- *  Created on: ???/???/????
- *      Author: ??? ????
+ *  Created on: 23 Sep 2026
+ *      Author: Admin
  */
 
-#include "../LIB/STD_TYPES.h"
-#include "DEVICES_APP.h"
+#include "../../LIB/BitMath.h"
+#include "../../LIB/STD_types.h"
 
-int main(void) {
+#include "../../MCAL/MDIO/DIO.h"
 
-    Devices_App_voidInit();
+#include "MOTOR.h"
 
-    while (1) {
+void HDC_Motor_voidInit (u8 A_u8Pin1Port , u8 A_u8Pin1Pin , u8 A_u8Pin2Port , u8 A_u8Pin2Pin)
+{
+	MDIO_voidInitPin(A_u8Pin1Port , A_u8Pin1Pin , DIO_OUTPUT) ;
+	MDIO_voidInitPin(A_u8Pin2Port , A_u8Pin2Pin , DIO_OUTPUT) ;
+}
 
-        Devices_App_voidUpdate();
-    }
+void HDC_Motor_voidStop (u8 A_u8Pin1Port , u8 A_u8Pin1Pin , u8 A_u8Pin2Port , u8 A_u8Pin2Pin)
+{
+	MDIO_voidSetPinValue(A_u8Pin1Port , A_u8Pin1Pin , DIO_LOW) ;
+	MDIO_voidSetPinValue(A_u8Pin2Port , A_u8Pin2Pin , DIO_LOW) ;
+}
 
-    return 0;
+void HDC_Motor_voidCW (u8 A_u8Pin1Port , u8 A_u8Pin1Pin , u8 A_u8Pin2Port , u8 A_u8Pin2Pin)
+{
+	MDIO_voidSetPinValue(A_u8Pin1Port , A_u8Pin1Pin , DIO_HIGH) ;
+	MDIO_voidSetPinValue(A_u8Pin2Port , A_u8Pin2Pin , DIO_LOW) ;
+}
+
+void HDC_Motor_voidCCW (u8 A_u8Pin1Port , u8 A_u8Pin1Pin , u8 A_u8Pin2Port , u8 A_u8Pin2Pin)
+{
+	MDIO_voidSetPinValue(A_u8Pin1Port , A_u8Pin1Pin , DIO_LOW) ;
+	MDIO_voidSetPinValue(A_u8Pin2Port , A_u8Pin2Pin , DIO_HIGH) ;
+}
+
+void HDC_Motor_voidControl (u8 A_u8State , u8 A_u8Pin1Port , u8 A_u8Pin1Pin , u8 A_u8Pin2Port , u8 A_u8Pin2Pin)
+{
+	if (A_u8State == 1)
+	{
+		HDC_Motor_voidCW(A_u8Pin1Port , A_u8Pin1Pin , A_u8Pin2Port , A_u8Pin2Pin) ;
+	}
+	else if (A_u8State == 2)
+	{
+		HDC_Motor_voidCCW(A_u8Pin1Port , A_u8Pin1Pin , A_u8Pin2Port , A_u8Pin2Pin) ;
+	}
+	else
+	{
+		HDC_Motor_voidStop(A_u8Pin1Port , A_u8Pin1Pin , A_u8Pin2Port , A_u8Pin2Pin) ;
+	}
 }
