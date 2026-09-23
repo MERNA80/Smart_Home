@@ -6,117 +6,181 @@
  */
 //#include "DIO.h"
 
-#include "DIO_REG.h"
-#include "DIO_type.h"
-#include "../../LIB/Bit_Math.h"
-#include "../../LIB/STD_type.h"
+#include "..\..\LIB\BitMath.h"
+#include "..\..\LIB\STD_types.h"
 
-void DIO_SetPortDirection (DIO_PortID port_ID , DIO_Direction direction)
- {
-	if (Output == direction)
-	{
-		switch(port_ID)
-		{
-			case PORTA: DDRA_REG = 0xff; break;
-			case PORTB: DDRB_REG = 0xff; break;
-			case PORTC: DDRC_REG = 0xff; break;
-			case PORTD: DDRD_REG = 0xff; break;
-		}
-	}
-	else if(Input == direction)
-	{
-		switch(port_ID)
-		{
-			case PORTA: DDRA_REG  = 0x00; break;
-			case PORTB: DDRB_REG  = 0x00; break;
-			case PORTC: DDRC_REG  = 0x00; break;
-			case PORTD: DDRD_REG  = 0x00; break;
-		}
-	}
- }
+#include "DIO.h"
 
-
-void DIO_SetPortValue     (DIO_PortID port_ID , unsigned char value)
+void MDIO_voidInitPin     (u8 A_u8PortName , u8 A_u8PinNumber , u8 A_u8Mode )
 {
-		switch (port_ID)
-		{
-			case PORTA : PORTA_REG = value ; break;
-			case PORTB : PORTB_REG = value ; break;
-			case PORTC : PORTC_REG = value ; break;
-			case PORTD : PORTD_REG = value ; break;
-		}
-}
-
-
-void DIO_SetPinDirection  (DIO_PortID port_ID , DIO_Pin_ID PinID , DIO_Direction direction)
-{
-	if (port_ID <= PORTD && PinID <= pin7 )
+	switch (A_u8PortName)
 	{
-		if(direction == Output)
+	case DIO_PORTA:
+		if (A_u8Mode == DIO_INPUT)
 		{
-			switch (port_ID)
-			{
-				case PORTA : SETBIT (DDRA_REG , PinID) ;break;
-				case PORTB : SETBIT (DDRB_REG , PinID) ;break;
-				case PORTC : SETBIT (DDRC_REG , PinID) ;break;
-				case PORTD : SETBIT (DDRD_REG , PinID) ;break;
-			}
+			CLR_BIT(DDRA , A_u8PinNumber) ;
 		}
-		else if (direction == Input)
+		else if (A_u8Mode == DIO_OUTPUT)
 		{
-			switch (port_ID)
-			{
-				case PORTA : CLEARBIT (DDRA_REG , PinID) ;break;
-				case PORTB : CLEARBIT (DDRB_REG , PinID) ;break;
-				case PORTC : CLEARBIT (DDRC_REG , PinID) ;break;
-				case PORTD : CLEARBIT (DDRD_REG , PinID) ;break;
-			}
+			SET_BIT(DDRA , A_u8PinNumber) ;
 		}
+		break ;
+	case DIO_PORTB:
+		if (A_u8Mode == DIO_INPUT)
+		{
+			CLR_BIT(DDRB , A_u8PinNumber) ;
+		}
+		else if (A_u8Mode == DIO_OUTPUT)
+		{
+			SET_BIT(DDRB , A_u8PinNumber) ;
+		}
+		break ;
+	case DIO_PORTC:
+		if (A_u8Mode == DIO_INPUT)
+		{
+			CLR_BIT(DDRC , A_u8PinNumber) ;
+		}
+		else if (A_u8Mode == DIO_OUTPUT)
+		{
+			SET_BIT(DDRC , A_u8PinNumber) ;
+		}
+		break ;
+	case DIO_PORTD:
+		if (A_u8Mode == DIO_INPUT)
+		{
+			CLR_BIT(DDRD , A_u8PinNumber) ;
+		}
+		else if (A_u8Mode == DIO_OUTPUT)
+		{
+			SET_BIT(DDRD , A_u8PinNumber) ;
+		}
+		break ;
 	}
 }
-
-
-void DIO_SetPinValue      (DIO_PortID port_ID , DIO_Pin_ID PinID , STD_LevelType value)
+void MDIO_voidSetPinValue (u8 A_u8PortName , u8 A_u8PinNumber , u8 A_u8Value)
 {
-	if (port_ID <= PORTD && PinID <= pin7)
+	switch (A_u8PortName)
 	{
-		if (value == High)
+	case DIO_PORTA:
+		if (A_u8Value == DIO_INPUT)
 		{
-			switch (port_ID)
-			{
-				case PORTA: SETBIT(PORTA_REG , PinID) ;break;
-				case PORTB: SETBIT(PORTB_REG , PinID) ;break;
-				case PORTC: SETBIT(PORTC_REG , PinID) ;break;
-				case PORTD: SETBIT(PORTD_REG , PinID) ;break;
-			}
+			CLR_BIT(PORTA , A_u8PinNumber) ;
 		}
-		else if (value == Low)
+		else if (A_u8Value == DIO_OUTPUT)
 		{
-			switch (port_ID)
-			{
-				case PORTA: CLEARBIT(PORTA_REG , PinID) ;break;
-				case PORTB: CLEARBIT(PORTB_REG , PinID) ;break;
-				case PORTC: CLEARBIT(PORTC_REG , PinID) ;break;
-				case PORTD: CLEARBIT(PORTD_REG , PinID) ;break;
-			}
+			SET_BIT(PORTA , A_u8PinNumber) ;
 		}
+		break ;
+	case DIO_PORTB:
+		if (A_u8Value == DIO_INPUT)
+		{
+			CLR_BIT(PORTB , A_u8PinNumber) ;
+		}
+		else if (A_u8Value == DIO_OUTPUT)
+		{
+			SET_BIT(PORTB , A_u8PinNumber) ;
+		}
+		break ;
+	case DIO_PORTC:
+		if (A_u8Value == DIO_INPUT)
+		{
+			CLR_BIT(PORTC , A_u8PinNumber) ;
+		}
+		else if (A_u8Value == DIO_OUTPUT)
+		{
+			SET_BIT(PORTC , A_u8PinNumber) ;
+		}
+		break ;
+	case DIO_PORTD:
+		if (A_u8Value == DIO_INPUT)
+		{
+			CLR_BIT(PORTD , A_u8PinNumber) ;
+		}
+		else if (A_u8Value == DIO_OUTPUT)
+		{
+			SET_BIT(PORTD , A_u8PinNumber) ;
+		}
+		break ;
 	}
 }
-
-
-STD_LevelType DIO_GetPinValue (DIO_PortID port_ID , DIO_Pin_ID PinID )
+void MDIO_voidTogPin      (u8 A_u8PortName , u8 A_u8PinNumber               )
 {
-	STD_LevelType PinValue;
-	if (port_ID <= PORTD && PinID <= pin7)
+	switch (A_u8PortName)
 	{
-		switch(port_ID)
-		{
-			case PORTA: PinValue = GETBIT(PINA_REG , PinID) ;break;
-			case PORTB: PinValue = GETBIT(PINB_REG , PinID) ;break;
-			case PORTC: PinValue = GETBIT(PINC_REG , PinID) ;break;
-			case PORTD: PinValue = GETBIT(PIND_REG , PinID) ;break;
-		}
+	case DIO_PORTA:
+		TOG_BIT(PORTA , A_u8PinNumber) ;
+		break ;
+	case DIO_PORTB:
+		TOG_BIT(PORTB , A_u8PinNumber) ;
+		break ;
+	case DIO_PORTC:
+		TOG_BIT(PORTC , A_u8PinNumber) ;
+		break ;
+	case DIO_PORTD:
+		TOG_BIT(PORTD , A_u8PinNumber) ;
+		break ;
 	}
-	return PinValue;
+}
+u8   MDIO_u8ReadPin       (u8 A_u8PortName , u8 A_u8PinNumber               )
+{
+	u8 L_u8ReadPin ;
+	switch (A_u8PortName)
+	{
+	case DIO_PORTA:
+		L_u8ReadPin = READ_BIT(PINA , A_u8PinNumber) ;
+		break ;
+	case DIO_PORTB:
+		L_u8ReadPin = READ_BIT(PINB , A_u8PinNumber) ;
+		break ;
+	case DIO_PORTC:
+		L_u8ReadPin = READ_BIT(PINC , A_u8PinNumber) ;
+		break ;
+	case DIO_PORTD:
+		L_u8ReadPin = READ_BIT(PIND , A_u8PinNumber) ;
+		break ;
+	}
+	return L_u8ReadPin ;
 }
 
+void MDIO_voidInitPort     (u8 A_u8PortName , u8 A_u8Mode )
+{
+	switch (A_u8PortName)
+	{
+	case DIO_PORTA : DDRA = A_u8Mode ; break ;
+	case DIO_PORTB : DDRB = A_u8Mode ; break ;
+	case DIO_PORTC : DDRC = A_u8Mode ; break ;
+	case DIO_PORTD : DDRD = A_u8Mode ; break ;
+	}
+}
+void MDIO_voidSetPortValue (u8 A_u8PortName , u8 A_u8Value)
+{
+	switch (A_u8PortName)
+	{
+	case DIO_PORTA : PORTA = A_u8Value ; break ;
+	case DIO_PORTB : PORTB = A_u8Value ; break ;
+	case DIO_PORTC : PORTC = A_u8Value ; break ;
+	case DIO_PORTD : PORTD = A_u8Value ; break ;
+	}
+}
+void MDIO_voidTogPort      (u8 A_u8PortName              )
+{
+	switch (A_u8PortName)
+	{
+	case DIO_PORTA : PORTA = ~PORTA ; break ;
+	case DIO_PORTB : PORTB = ~PORTB ; break ;
+	case DIO_PORTC : PORTC = ~PORTC ; break ;
+	case DIO_PORTD : PORTD = ~PORTD ; break ;
+	}
+}
+u8   MDIO_u8ReadPort       (u8 A_u8PortName             )
+{
+	u8 L_u8ReadPort ;
+	switch (A_u8PortName)
+	{
+	case DIO_PORTA : L_u8ReadPort = PINA ; break ;
+	case DIO_PORTB : L_u8ReadPort = PINB ; break ;
+	case DIO_PORTC : L_u8ReadPort = PINC ; break ;
+	case DIO_PORTD : L_u8ReadPort = PIND ; break ;
+	}
+	return L_u8ReadPort ;
+}
