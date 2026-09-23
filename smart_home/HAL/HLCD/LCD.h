@@ -23,7 +23,7 @@
 void LCD_Initialization (void) ;
 void LCD_Send_Data (u8 Data)   ;
 void LCD_Send_Cmd (u8 Cmd)     ;
-void LCD_Send_Str (u8* str)    ;
+void LCD_Send_Str (const char* str)    ;
 void LCD_CLearDisplay (void)   ;
 void LCD_ShiftLeft (void)      ;
 void LCD_ShiftRight (void)     ;
