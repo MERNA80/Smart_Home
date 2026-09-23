@@ -103,7 +103,7 @@ void LCD_Send_Cmd (u8 Cmd)
 }
 
 
-void LCD_Send_Str (u8* str)
+void LCD_Send_Str (const char* str)
 {
 	u8 Iterator_str = 0 ;
 	while (str [Iterator_str] != '\0')
