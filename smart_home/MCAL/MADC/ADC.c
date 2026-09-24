@@ -18,10 +18,14 @@ void MADC_voidInit (void)
 
 u16 MADC_u16ReadChannel (u8 A_u8Channel)
 {
+	u16 L_u16Result ;
+
 	ADMUX = (ADMUX & 0xE0) | (A_u8Channel & 0x07) ;   /* select channel */
 
 	SET_BIT(ADCSRA , 6) ;                      /* start conversion */
 	while (READ_BIT(ADCSRA , 6) == 1) ;        /* wait until done  */
 
-	return ADCL | ((u16)ADCH << 8) ;           /* ADCL must be read first */
+	L_u16Result  = ADCL ;                      /* ADCL must be read first */
+	L_u16Result |= ((u16)ADCH << 8) ;
+	return L_u16Result ;
 }
