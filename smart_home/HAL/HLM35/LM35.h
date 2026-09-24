@@ -10,7 +10,7 @@
 
 #include "../../LIB/STD_types.h"
 
-#define LM35_ADC_CHANNEL   3   /* PA0 */
+#define LM35_ADC_CHANNEL   3   /* PA3 */
 
 void HLM35_voidInit         (void) ;
 u8   HLM35_u8GetTemperature (void) ;
