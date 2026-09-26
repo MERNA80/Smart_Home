@@ -1,0 +1,812 @@
+Archive member included because of file (symbol)
+
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              ./HAL/HLM35/LM35.o (__mulsi3)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              ./MCAL/MUART/UART.o (__udivmodsi4)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              ./HAL/HPASSWORD/PASSWORD.o (__do_copy_data)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              ./APP/AC_APP.o (__do_clear_bss)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                              ./HAL/HLCD/LCD.o (__fixunssfsi)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                              c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__subsf3)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                              ./HAL/HLCD/LCD.o (__mulsf3)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                              ./HAL/HLCD/LCD.o (__gtsf2)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                              c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__gesf2)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                              ./HAL/HLCD/LCD.o (__ltsf2)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                              c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                              c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__thenan_sf)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__prologue_saves__)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__epilogue_restores__)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                              c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__pack_f)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                              c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o) (__unpack_f)
+c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                              c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o) (__fpcmp_parts_f)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ./MCAL/MUART/UART.o
+LOAD ./MCAL/MEEPROM/EEPROM.o
+LOAD ./MCAL/MDIO/DIO.o
+LOAD ./MCAL/MADC/ADC.o
+LOAD ./HAL/HPASSWORD/PASSWORD.o
+LOAD ./HAL/HLM35/LM35.o
+LOAD ./HAL/HLED_BUTTON/BUTTON_PROGRAM.o
+LOAD ./HAL/HLED_BUTTON/LED_PROGRAM.o
+LOAD ./HAL/HLCD/LCD.o
+LOAD ./HAL/HDC_MOTOR/MOTOR.o
+LOAD ./APP/AC_APP.o
+LOAD ./APP/DEVICES_APP.o
+LOAD ./APP/LCD_APP.o
+LOAD ./main.o
+LOAD c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x51e4
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x0000008e                __vector_1
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_6
+                0x0000008e                __vector_3
+                0x0000008e                __vector_11
+                0x0000008e                __vector_13
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_7
+                0x0000008e                __vector_5
+                0x0000008e                __vector_4
+                0x0000008e                __vector_9
+                0x0000008e                __vector_2
+                0x0000008e                __vector_15
+                0x0000008e                __vector_8
+                0x0000008e                __vector_14
+                0x0000008e                __vector_10
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+ .text          0x00000092        0x0 ./MCAL/MUART/UART.o
+ .text          0x00000092        0x0 ./MCAL/MEEPROM/EEPROM.o
+ .text          0x00000092        0x0 ./MCAL/MDIO/DIO.o
+ .text          0x00000092        0x0 ./MCAL/MADC/ADC.o
+ .text          0x00000092        0x0 ./HAL/HPASSWORD/PASSWORD.o
+ .text          0x00000092        0x0 ./HAL/HLM35/LM35.o
+ .text          0x00000092        0x0 ./HAL/HLED_BUTTON/BUTTON_PROGRAM.o
+ .text          0x00000092        0x0 ./HAL/HLED_BUTTON/LED_PROGRAM.o
+ .text          0x00000092        0x0 ./HAL/HLCD/LCD.o
+ .text          0x00000092        0x0 ./HAL/HDC_MOTOR/MOTOR.o
+ .text          0x00000092        0x0 ./APP/AC_APP.o
+ .text          0x00000092        0x0 ./APP/DEVICES_APP.o
+ .text          0x00000092        0x0 ./APP/LCD_APP.o
+ .text          0x00000092        0x0 ./main.o
+ .text          0x00000092        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00000092        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000092        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000092        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000092        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000092       0x58 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                0x00000092                __fixunssfsi
+ .text          0x000000ea      0x354 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                0x00000382                __subsf3
+                0x000003e4                __addsf3
+ .text          0x0000043e      0x1f4 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                0x0000043e                __mulsf3
+ .text          0x00000632       0x60 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                0x00000632                __gtsf2
+ .text          0x00000692       0x60 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                0x00000692                __gesf2
+ .text          0x000006f2       0x60 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                0x000006f2                __ltsf2
+ .text          0x00000752       0xa8 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                0x00000752                __fixsfsi
+ .text          0x000007fa        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .text          0x000007fa        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x000007fa        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .text          0x000007fa      0x1aa c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                0x000007fa                __pack_f
+ .text          0x000009a4       0xf0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                0x000009a4                __unpack_f
+ .text          0x00000a94       0xb2 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                0x00000a94                __fpcmp_parts_f
+                0x00000b46                . = ALIGN (0x2)
+ *(.text.*)
+ .text.MUART_voidInit
+                0x00000b46       0x9c ./MCAL/MUART/UART.o
+                0x00000b46                MUART_voidInit
+ .text.MUART_voidTx
+                0x00000be2       0x42 ./MCAL/MUART/UART.o
+                0x00000be2                MUART_voidTx
+ .text.MUART_u8Rx
+                0x00000c24       0x2a ./MCAL/MUART/UART.o
+                0x00000c24                MUART_u8Rx
+ .text.EEPROM_Voidwrite
+                0x00000c4e       0x4a ./MCAL/MEEPROM/EEPROM.o
+                0x00000c4e                EEPROM_Voidwrite
+ .text.EEPROM_u8Read
+                0x00000c98       0x42 ./MCAL/MEEPROM/EEPROM.o
+                0x00000c98                EEPROM_u8Read
+ .text.MDIO_voidInitPin
+                0x00000cda      0x1e4 ./MCAL/MDIO/DIO.o
+                0x00000cda                MDIO_voidInitPin
+ .text.MDIO_voidSetPinValue
+                0x00000ebe      0x1e4 ./MCAL/MDIO/DIO.o
+                0x00000ebe                MDIO_voidSetPinValue
+ .text.MDIO_voidTogPin
+                0x000010a2       0xfa ./MCAL/MDIO/DIO.o
+                0x000010a2                MDIO_voidTogPin
+ .text.MDIO_u8ReadPin
+                0x0000119c      0x156 ./MCAL/MDIO/DIO.o
+                0x0000119c                MDIO_u8ReadPin
+ .text.MDIO_voidInitPort
+                0x000012f2       0x82 ./MCAL/MDIO/DIO.o
+                0x000012f2                MDIO_voidInitPort
+ .text.MDIO_voidSetPortValue
+                0x00001374       0x82 ./MCAL/MDIO/DIO.o
+                0x00001374                MDIO_voidSetPortValue
+ .text.MDIO_voidTogPort
+                0x000013f6       0x96 ./MCAL/MDIO/DIO.o
+                0x000013f6                MDIO_voidTogPort
+ .text.MDIO_u8ReadPort
+                0x0000148c       0x82 ./MCAL/MDIO/DIO.o
+                0x0000148c                MDIO_u8ReadPort
+ .text.MADC_voidInit
+                0x0000150e       0x1e ./MCAL/MADC/ADC.o
+                0x0000150e                MADC_voidInit
+ .text.MADC_u16ReadChannel
+                0x0000152c       0x8e ./MCAL/MADC/ADC.o
+                0x0000152c                MADC_u16ReadChannel
+ .text.PASS_voidDelay
+                0x000015ba       0x52 ./HAL/HPASSWORD/PASSWORD.o
+ .text.PASS_voidInit
+                0x0000160c       0x42 ./HAL/HPASSWORD/PASSWORD.o
+                0x0000160c                PASS_voidInit
+ .text.PASS_u8Check
+                0x0000164e       0x5a ./HAL/HPASSWORD/PASSWORD.o
+                0x0000164e                PASS_u8Check
+ .text.HLM35_voidInit
+                0x000016a8       0x12 ./HAL/HLM35/LM35.o
+                0x000016a8                HLM35_voidInit
+ .text.HLM35_u8GetTemperature
+                0x000016ba       0x56 ./HAL/HLM35/LM35.o
+                0x000016ba                HLM35_u8GetTemperature
+ .text.BUTTON_VoidInIt
+                0x00001710       0x40 ./HAL/HLED_BUTTON/BUTTON_PROGRAM.o
+                0x00001710                BUTTON_VoidInIt
+ .text.BUTTON_u8GetState
+                0x00001750       0x2a ./HAL/HLED_BUTTON/BUTTON_PROGRAM.o
+                0x00001750                BUTTON_u8GetState
+ .text.LED_VoidInIt
+                0x0000177a       0x40 ./HAL/HLED_BUTTON/LED_PROGRAM.o
+                0x0000177a                LED_VoidInIt
+ .text.LED_VoidTurnOn
+                0x000017ba       0x2c ./HAL/HLED_BUTTON/LED_PROGRAM.o
+                0x000017ba                LED_VoidTurnOn
+ .text.LED_VoidTurnOff
+                0x000017e6       0x2c ./HAL/HLED_BUTTON/LED_PROGRAM.o
+                0x000017e6                LED_VoidTurnOff
+ .text.LED_VoidToggle
+                0x00001812       0x2a ./HAL/HLED_BUTTON/LED_PROGRAM.o
+                0x00001812                LED_VoidToggle
+ .text.LCD_Initialization
+                0x0000183c      0x696 ./HAL/HLCD/LCD.o
+                0x0000183c                LCD_Initialization
+ .text.LCD_Send_Data
+                0x00001ed2      0x4fc ./HAL/HLCD/LCD.o
+                0x00001ed2                LCD_Send_Data
+ .text.LCD_Send_Cmd
+                0x000023ce      0x4fc ./HAL/HLCD/LCD.o
+                0x000023ce                LCD_Send_Cmd
+ .text.LCD_Send_Str
+                0x000028ca       0x52 ./HAL/HLCD/LCD.o
+                0x000028ca                LCD_Send_Str
+ .text.LCD_CLearDisplay
+                0x0000291c      0x110 ./HAL/HLCD/LCD.o
+                0x0000291c                LCD_CLearDisplay
+ .text.LCD_ShiftLeft
+                0x00002a2c      0x110 ./HAL/HLCD/LCD.o
+                0x00002a2c                LCD_ShiftLeft
+ .text.LCD_ShiftRight
+                0x00002b3c      0x110 ./HAL/HLCD/LCD.o
+                0x00002b3c                LCD_ShiftRight
+ .text.LCD_Set_Cursor
+                0x00002c4c       0x3c ./HAL/HLCD/LCD.o
+                0x00002c4c                LCD_Set_Cursor
+ .text.HDC_Motor_voidInit
+                0x00002c88       0x36 ./HAL/HDC_MOTOR/MOTOR.o
+                0x00002c88                HDC_Motor_voidInit
+ .text.HDC_Motor_voidStop
+                0x00002cbe       0x36 ./HAL/HDC_MOTOR/MOTOR.o
+                0x00002cbe                HDC_Motor_voidStop
+ .text.HDC_Motor_voidCW
+                0x00002cf4       0x36 ./HAL/HDC_MOTOR/MOTOR.o
+                0x00002cf4                HDC_Motor_voidCW
+ .text.HDC_Motor_voidCCW
+                0x00002d2a       0x36 ./HAL/HDC_MOTOR/MOTOR.o
+                0x00002d2a                HDC_Motor_voidCCW
+ .text.HDC_Motor_voidControl
+                0x00002d60       0x60 ./HAL/HDC_MOTOR/MOTOR.o
+                0x00002d60                HDC_Motor_voidControl
+ .text.AC_App_voidInit
+                0x00002dc0       0x1e ./APP/AC_APP.o
+                0x00002dc0                AC_App_voidInit
+ .text.AC_App_voidUpdate
+                0x00002dde       0x6e ./APP/AC_APP.o
+                0x00002dde                AC_App_voidUpdate
+ .text.AC_App_u8GetMode
+                0x00002e4c       0x12 ./APP/AC_APP.o
+                0x00002e4c                AC_App_u8GetMode
+ .text.AC_App_u8GetTemperature
+                0x00002e5e       0x12 ./APP/AC_APP.o
+                0x00002e5e                AC_App_u8GetTemperature
+ .text.Devices_App_voidInit
+                0x00002e70       0x46 ./APP/DEVICES_APP.o
+                0x00002e70                Devices_App_voidInit
+ .text.Devices_App_voidUpdate
+                0x00002eb6      0x192 ./APP/DEVICES_APP.o
+                0x00002eb6                Devices_App_voidUpdate
+ .text.Devices_App_u8GetDeviceStatus
+                0x00003048       0x5a ./APP/DEVICES_APP.o
+                0x00003048                Devices_App_u8GetDeviceStatus
+ .text.LCD_Lab_EnterPassword_mas
+                0x000030a2     0x1bc4 ./APP/LCD_APP.o
+                0x000030a2                LCD_Lab_EnterPassword_mas
+ .text.LCD_Lab_PasswordStar_mas
+                0x00004c66       0x30 ./APP/LCD_APP.o
+                0x00004c66                LCD_Lab_PasswordStar_mas
+ .text.LCD_Lab_Wrong_mas
+                0x00004c96       0x28 ./APP/LCD_APP.o
+                0x00004c96                LCD_Lab_Wrong_mas
+ .text.LCD_Lab_Correct_mas
+                0x00004cbe       0x28 ./APP/LCD_APP.o
+                0x00004cbe                LCD_Lab_Correct_mas
+ .text.LCD_Lab_Invalid_mas
+                0x00004ce6       0x28 ./APP/LCD_APP.o
+                0x00004ce6                LCD_Lab_Invalid_mas
+ .text.LCD_Lab_Home_Statuse_mas
+                0x00004d0e      0x128 ./APP/LCD_APP.o
+                0x00004d0e                LCD_Lab_Home_Statuse_mas
+ .text.LCD_Lab_DisplayHomeStatus
+                0x00004e36       0xc6 ./APP/LCD_APP.o
+                0x00004e36                LCD_Lab_DisplayHomeStatus
+ .text.main     0x00004efc      0x1f4 ./main.o
+                0x00004efc                main
+ .text.libgcc   0x000050f0       0x3e c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x000050f0                __mulsi3
+ .text.libgcc   0x0000512e       0x44 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000512e                __udivmodsi4
+ .text.libgcc   0x00005172        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00005172        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00005172        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00005172       0x38 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x00005172                __prologue_saves__
+ .text.libgcc   0x000051aa       0x36 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x000051aa                __epilogue_restores__
+                0x000051e0                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000051e0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x000051e0                exit
+                0x000051e0                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000051e0        0x4 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000051e4                _etext = .
+
+.data           0x00800060       0x70 load address 0x000051e4
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./MCAL/MUART/UART.o
+ .data          0x00800060        0x0 ./MCAL/MEEPROM/EEPROM.o
+ .data          0x00800060        0x0 ./MCAL/MDIO/DIO.o
+ .data          0x00800060        0x0 ./MCAL/MADC/ADC.o
+ .data          0x00800060        0x0 ./HAL/HPASSWORD/PASSWORD.o
+ .data          0x00800060        0x0 ./HAL/HLM35/LM35.o
+ .data          0x00800060        0x0 ./HAL/HLED_BUTTON/BUTTON_PROGRAM.o
+ .data          0x00800060        0x0 ./HAL/HLED_BUTTON/LED_PROGRAM.o
+ .data          0x00800060        0x0 ./HAL/HLCD/LCD.o
+ .data          0x00800060        0x0 ./HAL/HDC_MOTOR/MOTOR.o
+ .data          0x00800060        0x0 ./APP/AC_APP.o
+ .data          0x00800060        0x0 ./APP/DEVICES_APP.o
+ .data          0x00800060       0x53 ./APP/LCD_APP.o
+ .data          0x008000b3        0x0 ./main.o
+ .data          0x008000b3        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x008000b3        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x008000b3        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x008000b3        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x008000b3        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x008000b3        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .data          0x008000b3        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .data          0x008000b3        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .data          0x008000b3        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .data          0x008000b3        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .data          0x008000b3        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .data          0x008000b3        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .data          0x008000b3        0x8 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+                0x008000b3                __thenan_sf
+ .data          0x008000bb        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x008000bb        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x008000bb        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .data          0x008000bb        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .data          0x008000bb        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ *(.data*)
+ .data.DEVICES_LED
+                0x008000bb        0x8 ./APP/DEVICES_APP.o
+ .data.DEVICES_BUTTONS
+                0x008000c3        0x8 ./APP/DEVICES_APP.o
+ *(.rodata)
+ *(.rodata*)
+ .rodata.DEFAULT_PASS
+                0x008000cb        0x4 ./HAL/HPASSWORD/PASSWORD.o
+ *(.gnu.linkonce.d*)
+                0x008000d0                . = ALIGN (0x2)
+ *fill*         0x008000cf        0x1 00
+                0x008000d0                _edata = .
+                0x008000d0                PROVIDE (__data_end, .)
+
+.bss            0x008000d0        0x3
+                0x008000d0                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x008000d0        0x0 ./MCAL/MUART/UART.o
+ .bss           0x008000d0        0x0 ./MCAL/MEEPROM/EEPROM.o
+ .bss           0x008000d0        0x0 ./MCAL/MDIO/DIO.o
+ .bss           0x008000d0        0x0 ./MCAL/MADC/ADC.o
+ .bss           0x008000d0        0x0 ./HAL/HPASSWORD/PASSWORD.o
+ .bss           0x008000d0        0x0 ./HAL/HLM35/LM35.o
+ .bss           0x008000d0        0x0 ./HAL/HLED_BUTTON/BUTTON_PROGRAM.o
+ .bss           0x008000d0        0x0 ./HAL/HLED_BUTTON/LED_PROGRAM.o
+ .bss           0x008000d0        0x0 ./HAL/HLCD/LCD.o
+ .bss           0x008000d0        0x0 ./HAL/HDC_MOTOR/MOTOR.o
+ .bss           0x008000d0        0x0 ./APP/AC_APP.o
+ .bss           0x008000d0        0x0 ./APP/DEVICES_APP.o
+ .bss           0x008000d0        0x0 ./APP/LCD_APP.o
+ .bss           0x008000d0        0x0 ./main.o
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .bss           0x008000d0        0x0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ *(.bss*)
+ .bss.G_u8Temp  0x008000d0        0x1 ./APP/AC_APP.o
+ .bss.G_u8Mode  0x008000d1        0x1 ./APP/AC_APP.o
+ .bss.g_u8DevicesStatus
+                0x008000d2        0x1 ./APP/DEVICES_APP.o
+ *(COMMON)
+                0x008000d3                PROVIDE (__bss_end, .)
+                0x000051e4                __data_load_start = LOADADDR (.data)
+                0x00005254                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008000d3        0x0
+                0x008000d3                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008000d3                PROVIDE (__noinit_end, .)
+                0x008000d3                _end = .
+                0x008000d3                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x4d28
+ *(.stab)
+ .stab          0x00000000      0x294 ./MCAL/MUART/UART.o
+ .stab          0x00000294      0x234 ./MCAL/MEEPROM/EEPROM.o
+                                0x240 (size before relaxing)
+ .stab          0x000004c8      0x6a8 ./MCAL/MDIO/DIO.o
+                                0x6b4 (size before relaxing)
+ .stab          0x00000b70      0x240 ./MCAL/MADC/ADC.o
+                                0x24c (size before relaxing)
+ .stab          0x00000db0      0x294 ./HAL/HPASSWORD/PASSWORD.o
+                                0x2a0 (size before relaxing)
+ .stab          0x00001044      0x1f8 ./HAL/HLM35/LM35.o
+                                0x204 (size before relaxing)
+ .stab          0x0000123c      0x210 ./HAL/HLED_BUTTON/BUTTON_PROGRAM.o
+                                0x21c (size before relaxing)
+ .stab          0x0000144c      0x204 ./HAL/HLED_BUTTON/LED_PROGRAM.o
+                                0x294 (size before relaxing)
+ .stab          0x00001650     0x138c ./HAL/HLCD/LCD.o
+                               0x1398 (size before relaxing)
+ .stab          0x000029dc      0x3b4 ./HAL/HDC_MOTOR/MOTOR.o
+                                0x3c0 (size before relaxing)
+ .stab          0x00002d90      0x2ac ./APP/AC_APP.o
+                                0x2b8 (size before relaxing)
+ .stab          0x0000303c      0x390 ./APP/DEVICES_APP.o
+                                0x5ac (size before relaxing)
+ .stab          0x000033cc     0x14c4 ./APP/LCD_APP.o
+                               0x16e0 (size before relaxing)
+ .stab          0x00004890      0x498 ./main.o
+                                0x630 (size before relaxing)
+
+.stabstr        0x00000000     0x1654
+ *(.stabstr)
+ .stabstr       0x00000000     0x1654 ./MCAL/MUART/UART.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x140
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000020       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x00000040       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x00000060       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_aranges
+                0x00000080       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_aranges
+                0x000000a0       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_aranges
+                0x000000c0       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_aranges
+                0x000000e0       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_aranges
+                0x00000100       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_aranges
+                0x00000120       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_pubnames
+                0x00000000      0x170
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x23 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_pubnames
+                0x00000023       0x2c c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_pubnames
+                0x0000004f       0x1f c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_pubnames
+                0x0000006e       0x1e c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_pubnames
+                0x0000008c       0x1e c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_pubnames
+                0x000000aa       0x1e c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_pubnames
+                0x000000c8       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_pubnames
+                0x000000e8       0x22 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_pubnames
+                0x0000010a       0x1f c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_pubnames
+                0x00000129       0x21 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_pubnames
+                0x0000014a       0x26 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_info     0x00000000     0x1c49
+ *(.debug_info)
+ .debug_info    0x00000000       0xb1 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_info    0x000000b1      0x47a c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_info    0x0000052b      0x485 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_info    0x000009b0      0x27f c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_info    0x00000c2f      0x27f c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_info    0x00000eae      0x27f c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_info    0x0000112d      0x2b0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_info    0x000013dd      0x12c c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_info    0x00001509      0x2df c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_info    0x000017e8      0x251 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_info    0x00001a39      0x210 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xeeb
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x5d c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x0000005d      0x1ea c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00000247      0x21b c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x00000462      0x15a c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_abbrev  0x000005bc      0x15a c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_abbrev  0x00000716      0x15a c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_abbrev  0x00000870      0x17f c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_abbrev  0x000009ef       0xad c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_abbrev  0x00000a9c      0x1c0 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_abbrev  0x00000c5c      0x154 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_abbrev  0x00000db0      0x13b c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_line     0x00000000      0xdad
+ *(.debug_line)
+ .debug_line    0x00000000       0xa7 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_line    0x000000a7      0x2af c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_line    0x00000356      0x239 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_line    0x0000058f       0xd3 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_line    0x00000662       0xd3 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_line    0x00000735       0xd3 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_line    0x00000808      0x109 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_line    0x00000911       0x90 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_line    0x000009a1      0x18a c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_line    0x00000b2b      0x14b c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_line    0x00000c76      0x137 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_frame    0x00000000      0x160
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00000020       0x40 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_frame   0x00000060       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_frame   0x00000080       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_frame   0x000000a0       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_frame   0x000000c0       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_frame   0x000000e0       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_frame   0x00000100       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_frame   0x00000120       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_frame   0x00000140       0x20 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_str      0x00000000      0x28d
+ *(.debug_str)
+ .debug_str     0x00000000       0xbf c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+                                 0xfe (size before relaxing)
+ .debug_str     0x000000bf      0x14d c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+                                0x206 (size before relaxing)
+ .debug_str     0x0000020c       0x27 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00000233        0xf c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000242        0x8 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x0000024a        0x8 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00000252        0xa c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+                                0x19e (size before relaxing)
+ .debug_str     0x00000000      0x103 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_thenan_sf.o)
+ .debug_str     0x0000025c       0x16 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+                                0x19d (size before relaxing)
+ .debug_str     0x00000272        0xb c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+                                0x17f (size before relaxing)
+ .debug_str     0x0000027d       0x10 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+                                0x163 (size before relaxing)
+
+.debug_loc      0x00000000      0x7ce
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x34 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fixunssfsi.o)
+ .debug_loc     0x00000034      0x32a c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_addsub_sf.o)
+ .debug_loc     0x0000035e      0x104 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)
+ .debug_loc     0x00000462       0x3c c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_gt_sf.o)
+ .debug_loc     0x0000049e       0x3c c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_ge_sf.o)
+ .debug_loc     0x000004da       0x3c c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_lt_sf.o)
+ .debug_loc     0x00000516       0x7e c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_sf_to_si.o)
+ .debug_loc     0x00000594      0x13e c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_pack_sf.o)
+ .debug_loc     0x000006d2       0xac c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_unpack_sf.o)
+ .debug_loc     0x0000077e       0x50 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_fpcmp_parts_sf.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(SMART-HOME.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x50
+ .debug_ranges  0x00000000       0x50 c:/iot/sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mul_sf.o)

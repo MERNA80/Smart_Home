@@ -1,0 +1,20 @@
+APP/DEVICES_APP.o APP/DEVICES_APP.o: ../APP/DEVICES_APP.c \
+  ../APP/../LIB/STD_types.h ../APP/../LIB/BitMath.h \
+  ../APP/../HAL/HLED_BUTTON/LED_INTERFACE.h \
+  ../APP/../HAL/HLED_BUTTON/../../LIB/STD_types.h \
+  ../APP/../MCAL/MDIO/DIO.h ../APP/DEVICES_APP.h \
+  ../APP/../HAL/HLED_BUTTON/BUTTON_INTERFACE.h
+
+../APP/../LIB/STD_types.h:
+
+../APP/../LIB/BitMath.h:
+
+../APP/../HAL/HLED_BUTTON/LED_INTERFACE.h:
+
+../APP/../HAL/HLED_BUTTON/../../LIB/STD_types.h:
+
+../APP/../MCAL/MDIO/DIO.h:
+
+../APP/DEVICES_APP.h:
+
+../APP/../HAL/HLED_BUTTON/BUTTON_INTERFACE.h:

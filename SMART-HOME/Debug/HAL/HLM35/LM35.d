@@ -1,0 +1,11 @@
+HAL/HLM35/LM35.o HAL/HLM35/LM35.o: ../HAL/HLM35/LM35.c \
+  ../HAL/HLM35/../../LIB/STD_types.h ../HAL/HLM35/../../MCAL/MADC/ADC.h \
+  ../HAL/HLM35/../../MCAL/MADC/../../LIB/STD_types.h ../HAL/HLM35/LM35.h
+
+../HAL/HLM35/../../LIB/STD_types.h:
+
+../HAL/HLM35/../../MCAL/MADC/ADC.h:
+
+../HAL/HLM35/../../MCAL/MADC/../../LIB/STD_types.h:
+
+../HAL/HLM35/LM35.h:
